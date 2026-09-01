@@ -1,0 +1,29 @@
+.tablero {
+  border-collapse: separate;
+  border-spacing: 2px;
+  background-color: #333;
+  padding: 4px;
+  margin: 20px auto;
+}
+
+.celda {
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  border-radius: 2px;
+}
+
+.cabeza {
+  background-color: #2e7d32;
+  border-radius: 6px;
+}
+
+.cuerpo {
+  background-color: #4caf50;
+  border-radius: 4px;
+}
+
+.comida {
+  background-color: #e53935; 
+  border-radius: 50%; 
+}
