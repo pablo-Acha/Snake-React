@@ -67,6 +67,7 @@ function App() {
       ).length > 0;
 
       if (chocoPared || chocoCuerpo) {
+        alert('¡Perdiste! La serpiente chocó.');
         reiniciarJuego();
         return POSICION_INICIAL_SERPIENTE;
       }
